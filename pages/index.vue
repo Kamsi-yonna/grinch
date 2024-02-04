@@ -1,7 +1,5 @@
-<template>
-  <div>red one</div>
-</template>
+<template><div></div></template>
 
-<script></script>
+<script setup lang="ts"></script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
