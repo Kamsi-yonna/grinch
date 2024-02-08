@@ -1,4 +1,8 @@
-<template><div></div></template>
+<template>
+  <div>
+    <HeroSection />
+  </div>
+</template>
 
 <script setup lang="ts"></script>
 
