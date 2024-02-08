@@ -28,32 +28,36 @@
 
 <style scoped>
 .text-block {
-  display: grid;
+  display: flex;
   grid-template-columns: 50px 100px 1fr;
   grid-template-rows: 50px 50px 100px 20px 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+
   .new {
     grid-area: 1 / 1 / 5 / 4;
     font-size: 23vmin;
-    color: #efefef;
+    color: #efefee;
     text-transform: uppercase;
   }
+
   .sale {
-    grid-area: 2 / 2 / 3 / 4;
-    font-size: 6.5vmin;
-    color: #d96528;
+    grid-area: 2 / 2 / 5/ 4;
+    font-size: 23vmin;
+    color: #efefef;
     font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, sans-serif;
   }
+
   .collection {
-    grid-area: 3 / 3 / 4 / 4;
+    grid-area: 3/ 3 /4 /4;
     font-size: 8.5vmin;
     font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, sans-serif;
   }
+
   .details {
-    grid-area: 4 / 2 / 5 / 4;
+    grid-area: 4/ 2 /5 /4;
     font-size: 2vmin;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -68,7 +72,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .textlockup {
+  .text-block {
     grid-template-columns: 25px 25px 1fr !important;
     grid-template-rows: 6vmin 5.5vmin 10vmin 20px 1fr !important;
   }
