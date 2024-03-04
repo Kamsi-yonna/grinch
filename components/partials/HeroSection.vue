@@ -11,7 +11,7 @@
     </div>
 
     <div class="sale">
-      <slot name="sale">Men Shoes</slot>
+      <slot name="sale">Shoes</slot>
     </div>
 
     <div class="collection">
